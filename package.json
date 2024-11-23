@@ -1,0 +1,32 @@
+{
+  "name": "bare-queue-microtask",
+  "version": "1.0.0",
+  "description": "Microtask queuing for Bare",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json",
+    "./global": "./global.js"
+  },
+  "files": [
+    "index.js",
+    "global.js"
+  ],
+  "scripts": {
+    "test": "prettier . --check && bare test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-queue-microtask.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-queue-microtask/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-queue-microtask#readme",
+  "devDependencies": {
+    "brittle": "^3.2.1",
+    "prettier": "^3.3.3",
+    "prettier-config-standard": "^7.0.0"
+  }
+}
