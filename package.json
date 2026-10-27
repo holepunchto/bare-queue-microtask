@@ -1,6 +1,6 @@
 {
   "name": "bare-queue-microtask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Microtask queuing for Bare",
   "exports": {
     ".": "./index.js",
